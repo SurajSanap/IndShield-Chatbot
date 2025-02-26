@@ -18,7 +18,7 @@ def main():
         animation = json.load(anim_source)
         st_lottie(animation, 1, True, True, "high", 200, -200)
 
-    st.write("<h1><center>AI Chatbot - Project Assistant</center></h1>", unsafe_allow_html=True)
+    st.write("<h1><center>IndShield - AI Chatbot</center></h1>", unsafe_allow_html=True)
     st.write("<p style='text-align: center;'>Powered by Google Gemini</p>", unsafe_allow_html=True)
 
     # Chatbot interface
